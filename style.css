@@ -12,7 +12,7 @@ html,body {
 /* inmport font */
 @font-face {
     font-family: stanberry;
-    src: url(fonts/Stanberry.ttf);
+    src: url(Stanberry.ttf);
 }
   
 
@@ -160,7 +160,7 @@ h1, h2 {
 /*  use pseudo class to add opacity to backgroud image  */
 #top-container::before {    
     content: "";
-    background-image: url('images/Reeses-mini.jpeg');
+    background-image: url('Reeses-mini.jpeg');
     background-position: left top;
     background-repeat: repeat;
     position: absolute;
@@ -420,7 +420,7 @@ input[type=text], [type=email],select, textarea {
 footer {
     padding: 0 5vw;
     background-color: #3C131B;
-    background-image: url(images/peanut-by-peanut.png),url(images/reeses-recipe.png);
+    background-image: url(peanut-by-peanut.png),url(reeses-recipe.png);
     background-size: 15vw, 35vw;
     background-position: left bottom, right bottom;
     background-repeat: no-repeat, no-repeat;
